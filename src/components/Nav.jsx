@@ -13,7 +13,7 @@ const Nav = () => {
           <div className='flex items-center justify-center gap-1 px-5'>
           <button></button>
           <Link to="/checkout"><img className='w-7 mr-2' src="src\assets\cart.png" alt="" /></Link>
-          <span>0</span>
+          
           </div>
         </div>
     </div>

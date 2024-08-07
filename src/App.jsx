@@ -22,7 +22,6 @@ const App = () => {
   };
 
   return (
-    <CartContext.Provider value={{ cart, updateCart }}>
       <div>
         <Nav />
         <Routes>
@@ -32,7 +31,6 @@ const App = () => {
           <Route path="/done" element={<Done />} />
         </Routes>
       </div>
-    </CartContext.Provider>
   );
 };
 
